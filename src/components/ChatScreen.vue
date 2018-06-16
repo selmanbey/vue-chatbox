@@ -1,5 +1,5 @@
 <template>
-  <div id="a" class="container">
+  <div class="container">
     <div class="header">
     	<h1 class="header-text">THE CHAT BOX</h1>
     </div>
@@ -46,9 +46,7 @@
         updateChat: () => {
           let lastMessage = this.messagesSoFar[this.messagesSoFar.length-1]
           this.chatBoxTemplate += "<p>" + lastMessage + "<br></p>";
-          console.log(this)
           // this.scrollToEnd();
-          // console.log(this.users)
         },
         getUsers: () => {
           let allUsers = require("../assets/allUsers.json");
@@ -59,11 +57,10 @@
           }
         },
 
-        /* CHATBOX DOES NOT SCROLL AUTOMATICALLY */
+        // CHATBOX DOES NOT SCROLL AUTOMATICALLY
         // scrollToEnd: () => {
-        //   let chatLogBox = this.$el;
-        //   console.log(chatLogBox)
-        //   chatLogBox.scrollTop = chatLogBox.scrollHeight;
+        //   console.log(this.$el);
+        //   this.$el.scrollTop(chatLogBox.scrollHeight)
         // }
       }
     },
