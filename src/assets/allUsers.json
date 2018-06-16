@@ -1,6 +1,5 @@
 {
-  "user1": {"name": "galip derviş", "isActive": true},
-  "user2": {"name": "selim kocovali", "isActive": true},
-  "user3": {"name": "ertugrul dirilis", "isActive": true},
-  "user4": {"name": "jenn moss roy", "isActive": true}
+  "user1": {"name": "Clark Kent", "isActive": true},
+  "user2": {"name": "Bruce Wayne", "isActive": true},
+  "user3": {"name": "Ryan Air", "isActive": true}
 }
